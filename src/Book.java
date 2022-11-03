@@ -32,7 +32,6 @@ public class Book {
     public String toString() {
         return "Book{" +
                 "nameOfTheBook='" + nameOfTheBook + '\'' +
-                ", author=" + author +
                 ", yearOfPublicationOfTheBook=" + yearOfPublicationOfTheBook +
                 '}';
     }
