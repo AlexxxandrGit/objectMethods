@@ -32,6 +32,7 @@ public class Book {
     public String toString() {
         return "Book{" +
                 "nameOfTheBook='" + nameOfTheBook + '\'' +
+                ", author=" +author.toString()+
                 ", yearOfPublicationOfTheBook=" + yearOfPublicationOfTheBook +
                 '}';
     }
